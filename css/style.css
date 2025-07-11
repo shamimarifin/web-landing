@@ -29,6 +29,7 @@ a {
 }
 
 img {
+  display: inline-block;
   max-width: 100%;
 }
 
@@ -46,6 +47,7 @@ img {
 }
 
 .btn {
+  display: inline-block;
   background-color: #4E47FF;
   padding: 12px 30px;
   color: #fff;
@@ -178,7 +180,7 @@ section {
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
-  gap: 2%px;
+  gap: 2%;
   flex-wrap: wrap;
 }
 
@@ -210,4 +212,81 @@ section {
 
 .avatar p{
   color: #B3B3B3;
+}
+
+/* Focus CSS */
+.focus .title{
+  font-size: 38px;
+}
+
+.focus-box{
+  background-color: #fff;
+  padding: 50px 0px;
+  border-radius: 10px;
+}
+
+.focus-box p{
+  margin: 20px 0px;
+}
+
+.imgFocus img{
+  margin-top: 30px;
+  border-radius: 40px;
+}
+
+
+/* Contact CSS */
+.contact-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5%;
+}
+
+.left-contact{
+  flex-basis: 45%;
+}
+
+.left-contact .title{
+  font-size: 75px;
+}
+
+.right-contact{
+  flex-basis: 45%;
+}
+
+.right-contact input,
+.right-contact textarea{
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 20px 10px;
+  background-color: #fff;
+  margin-top: 10px;
+}
+.right-contact label{
+  display: block;
+  margin-top: 15px;
+}
+
+label{
+  font-weight: 600;
+}
+
+input::placeholder,
+textarea::placeholder{
+  font-size: 16px;
+}
+.subBtn{
+  border: none;
+  display: block;
+  margin: 20px 0px;
+  width: 100%;
+  font-size: 16px;
+}
+
+textarea{
+  width: 100%;
+  height: 135px;
+  resize: none;
 }

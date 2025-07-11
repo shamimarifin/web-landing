@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------ Variable CSS ------------------*/
+
+body {
+  background-color: #f5f8ff;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.primaryColor {
+  color: #4E47FF;
+}
+
+.secondaryColor {
+  color: #252432;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.btn {
+  background-color: #4E47FF;
+  padding: 12px 30px;
+  color: #fff;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: border 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  background: transparent;
+  border: 1px solid #4E47FF;
+  color: #252432;
+}
+
+p {
+  line-height: 25px;
+}
+
+section {
+  padding-top: 100px;
+}
+
+.title {
+  color: #252432;
+}
+
+/* Header Section */
+#header {
+  background-image: url('../Assets/Hero-bg.png');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 0px 0px 0px;
+  align-items: center;
+}
+
+.nav_logo {
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+  font-size: 34px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.banner {
+  padding: 250px 0px;
+}
+
+.banner-content {
+  text-align: center;
+}
+
+.banner-content h1 {
+  font-size: 64px;
+}
+
+.banner-content a {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+/* Action Items */
+.action-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-action .left-text h2 {
+  font-size: 42px;
+}
+
+.left-text p {
+  color: #252432;
+  font-size: 20px;
+  margin: 20px 0px 40px 0px;
+}
+
+.right-action img {
+  border-radius: 40px;
+}
+
+.shape {
+  position: absolute;
+  top: -50px;
+  left: 400px;
+}
+
+/* Productive CSS */
+.productive .title {
+  font-size: 38px;
+}
+
+.box-productive{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 0px;
+
+}
+
+.counter-box{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.counter-box .item h2{
+  font-size: 75px;
+  font-family: "Inter", sans-serif;
+  color: #4E47FF;
+}
